@@ -18,7 +18,10 @@ app_license = "MIT"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/location_track/css/location_track.css"
-# web_include_js = "/assets/location_track/js/location_track.js"
+web_include_js = ["/assets/location_track/js/aframe.min.js",
+"/assets/location_track/js/aframe-ar.min.js",
+"/assets/location_track/js/aframe-extras.loaders.min.js",
+"/assets/location_track/js/artoolkit.three.js"]
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "location_track/public/scss/website"
