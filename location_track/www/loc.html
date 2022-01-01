@@ -13,16 +13,16 @@
     <a-scene
       vr-mode-ui="enabled: false"
       embedded
-      arjs="sourceType: webcam;sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: true;"
-    >
-      <!-- <a-text
+      arjs="sourceType: webcam;sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;" >
+      <a-text
+				color="yellow"
         value="GREY-CUBE"
         look-at="[gps-camera]"
         scale="120 120 120"
         gps-entity-place="latitude: 23.187080; longitude: 72.573484;"
-      ></a-text> -->
+      ></a-text>
 
-			<a-box color="yellow" scale="15 15 15" position="0 200 0" gps-entity-place="latitude: 23.187080; longitude: 72.573484;"></a-box>
+			<!-- <a-box color="yellow" scale="15 15 15" position="0 200 0" gps-entity-place="latitude: 23.187080; longitude: 72.573484;"></a-box> -->
       <a-camera gps-camera rotation-reader> </a-camera>
     </a-scene>
   </body>
