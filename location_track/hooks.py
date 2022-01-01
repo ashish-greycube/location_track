@@ -21,7 +21,9 @@ app_license = "MIT"
 web_include_js = ["/assets/location_track/js/aframe.min.js",
 "/assets/location_track/js/aframe-ar.min.js",
 "/assets/location_track/js/aframe-extras.loaders.min.js",
-"/assets/location_track/js/artoolkit.three.js"]
+"/assets/location_track/js/artoolkit.three.js",
+"/assets/location_track/js/aframe-ar-nft.js",
+"/assets/location_track/js/aframe-look-at-component.min.js"]
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "location_track/public/scss/website"
