@@ -1,0 +1,22 @@
+{
+  "name": "location_track",
+  "version": "1.0.0",
+  "description": "Track Location",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cd dashboard && yarn dev",
+    "build": "cd dashboard && yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashish-greycube/location_track.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashish-greycube/location_track/issues"
+  },
+  "homepage": "https://github.com/ashish-greycube/location_track#readme"
+}
